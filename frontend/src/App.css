@@ -161,13 +161,13 @@ button {
 
 .nav-item:hover {
   background: #1f2937;
-  color: white;
+  color:  #ffffff;
 }
 
 .nav-item.active {
   background: #1f2937;
 
-  color: white;
+  color: #ffffff;
 
   border-left: 3px solid #ef4444;
 }
@@ -1948,4 +1948,82 @@ footer {
   font-size: 8px;
 
   font-weight: 700;
+}
+/* =====================================
+   GLOBAL TEXT VISIBILITY FIX
+===================================== */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+strong,
+small,
+td,
+th,
+label,
+button,
+input,
+select,
+textarea {
+  color: #172033;
+}
+
+/* Keep dark cards white */
+.ai-card,
+.ai-card h1,
+.ai-card h2,
+.ai-card h3,
+.ai-card p,
+.ai-card span,
+.ai-card strong,
+.ai-card small {
+  color: white;
+}
+
+/* Sidebar text */
+.sidebar,
+.sidebar h1,
+.sidebar h2,
+.sidebar h3,
+.sidebar p,
+.sidebar span,
+.sidebar strong,
+.sidebar small {
+  color: white;
+}
+
+/* Main dashboard headings */
+.topbar h1,
+.panel-header h2,
+.panel-title-row h2,
+.map-header h2,
+.kpi-card h2,
+.modal-header h2 {
+  color: #172033 !important;
+}
+
+/* Table */
+.incident-table th {
+  color: #344054 !important;
+  font-weight: 700;
+}
+
+.incident-table td {
+  color: #475467 !important;
+}
+
+/* Navigation */
+.nav-item {
+  color: #d1d5db;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  color: #ffffff;
 }
